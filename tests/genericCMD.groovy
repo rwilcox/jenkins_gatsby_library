@@ -9,7 +9,7 @@ class GenericCmdTestCase {
 
     @Test
     void itCallsShWhenItIsUnix() {
-        def script = this.class.classLoader.parseClass(new File("../../vars/genericCMD.groovy"))
+        def script = this.class.classLoader.parseClass(new File("vars/genericCMD.groovy"))
 
         def didCheckUnix = false
         def whatItCalled = ""
